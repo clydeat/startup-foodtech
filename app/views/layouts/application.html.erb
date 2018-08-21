@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
     <title>StartupFoodtech</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    
+    <meta property="og:title" content="Kebab Foufoune" />
+    <meta property="og:url" content="https://kebab-foufoune.herokuapp.com/" />
+    <meta property="og:description" content="Un lieu où les gens pourront venir, commander des sandwichs fourrés de viande grillée à la broche, choisir la sauce, salade tomate oignons, puis avoir leur sandwich en 5 minutes à peine." />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/hover-min.css" rel="stylesheet" media="all">
+    <link href="https://fonts.googleapis.com/css?family=Metamorphous" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="home.scss">
+    <script async type="text/javascript" src="application.js"></script>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
   </head>
 
   <body>
